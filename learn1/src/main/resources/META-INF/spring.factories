@@ -1,0 +1,3 @@
+org.springframework.cloud.bootstrap.BootstrapConfiguration= \
+com.zhou.bootstrap.CustomEnvirment_v1,\
+com.zhou.bootstrap.CustomEnvirment_v2

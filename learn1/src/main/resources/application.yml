@@ -1,0 +1,14 @@
+# 应用服务配置
+server:
+  port: 9001
+#属性会覆盖bootstrap的配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "beans" #"*"
+spring:
+  config:
+    name: appApplication
+  application:
+    name: appApplication

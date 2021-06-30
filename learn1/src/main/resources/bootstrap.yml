@@ -1,0 +1,17 @@
+#关闭cloud的bootsrap上下文
+# @see:org.springframework.cloud.bootstrap.BootstrapApplicationListener
+# NOTE: 这里只能设置在program arguments里面 --spring.cloud.bootstrap.enabled=false
+spring:
+  cloud:
+    bootstrap:
+      enabled: false
+    config:
+      allow-override: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+# 应用服务配置
+server:
+  port: 9001
