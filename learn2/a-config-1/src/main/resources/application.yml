@@ -1,0 +1,14 @@
+server:
+  port: 9050
+#/Users/user1/code_source/spring-cloud-prc
+#If you are using the git profile, you need to set a Git URI in your configuration.
+# If you are using a native profile and have spring.cloud.config.server.bootstrap=true, you need to use a composite configuration
+# http://localhost:9050/order/test
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: ${user.dir}/learn2/config

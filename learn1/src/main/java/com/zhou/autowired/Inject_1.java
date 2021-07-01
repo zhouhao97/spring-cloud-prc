@@ -40,6 +40,7 @@ public class Inject_1 {
          */
         System.out.println(injectionMetadata);
 
+        System.out.println(System.getProperty("user.dir"));
 
     }
 
