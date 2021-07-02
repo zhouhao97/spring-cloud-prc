@@ -1,0 +1,7 @@
+server:
+  port: 9051
+logging:
+  level:
+    #root: debug
+    web: trace
+

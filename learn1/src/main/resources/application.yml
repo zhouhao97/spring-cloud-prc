@@ -12,3 +12,7 @@ spring:
     name: appApplication
   application:
     name: appApplication
+logging:
+  level:
+    root: debug
+    web: debug

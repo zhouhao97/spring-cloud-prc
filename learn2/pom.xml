@@ -11,6 +11,7 @@
     <description>主要管理下公共的maven包</description>
     <modules>
         <module>a-config-1</module>
+        <module>a-config-2-client</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
